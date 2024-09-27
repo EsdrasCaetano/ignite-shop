@@ -15,7 +15,6 @@ interface ProductProps {
     }
 }
 export default function Product({ product }: ProductProps) {
-    // const { query } = useRouter()
 
      return (
         <ProductContainer>

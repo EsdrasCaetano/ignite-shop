@@ -11,17 +11,15 @@ export const ProductContainer = styled('main', {
 })
 
 export const ImageContainer = styled('div', {
-    
     borderRadius: "8px",
     padding: '0.25rem',
     width: '100%',
     maxWidth: 576,
     height: 656,
+    background: 'linear-gradient(180deg, #1ea483 0%, #7465d4 100%)',
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
-    
-    background: 'linear-gradient(180deg, #1ea483 0%, #7465d4 100%)}',
 
     img: {
         objectFit: 'cover',
